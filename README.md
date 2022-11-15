@@ -15,6 +15,10 @@ To get up and running, you will need to make sure that you have installed all of
 
 Once you've installed all of the prerequisites. Clone the repository on the www folder of Apache webserver.
 
+## Database Import
+Get the table dump from this file under this repo malasek_table_import.sql
+Import it using SQLYog Community Edition, from this link https://github.com/webyog/sqlyog-community/wiki/Downloads
+
 ## Reporting Security Issues
 To disclose a security issue to our team, [please reach out to the recruiter and contact me, anytime]
 

@@ -1,0 +1,126 @@
+2022-11-13T09:05:14+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6370b34a91ebahttplocalhostwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/wordpress\/wp-admin\/"}
+
+2022-11-13T09:05:19+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5012 milliseconds with 0 bytes received
+
+2022-11-13T09:05:21+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202211130905190102451332070126C8AB,202211130905190102451332070126C8AB
+Server-Timing: inner; dur=1605
+x-tt-trace-host: 01b41469593cd144ab4a4dede0cbd5411135019844aabb1f1291a25b8635022b625d832c96858acea916b744aeaccae126a9f0a39172ea8614189644fc5135bfbabdaa8ef51e5b965712d75adb1f643c60
+Content-Encoding: gzip
+Date: Sun, 13 Nov 2022 09:05:21 GMT
+Content-Length: 205
+X-Cache: TCP_MISS from a23-48-172-150.deploy.akamaitechnologies.com (AkamaiGHost/10.10.1-44825277) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=1610
+X-Origin-Response-Time: 1610,23.48.172.150
+X-Akamai-Request-ID: 16a528d4
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/wordpress\/wp-admin\/","external_data_key":"b8aa5b02-e4ca-4aa6-97e2-b2ddda7ce741","app_id":"7165424140470452226","app_secret":"7b03b31ebca1cbe9ca3d627a4fc770077dd746cf"}}
+
+2022-11-13T09:08:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:09:00+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:11:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:16:55+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:51:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:51:48+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:52:31+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:52:45+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:53:48+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T09:56:01+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T10:33:04+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:33:04+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:33:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:33:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:40:46+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:40:46+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:43:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:43:29+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:44:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:44:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:46:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:46:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:47:16+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:47:16+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:50:28+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:50:28+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:50:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:50:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T10:50:53+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-13T10:50:53+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-13T10:51:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T10:51:48+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T11:18:38+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T11:18:38+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T14:55:05+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T14:55:05+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:04:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:04:21+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:04:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:04:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:08:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:08:59+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:09:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:09:18+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:20:58+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:20:58+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:25:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:25:45+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:25:57+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:25:57+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:30:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:30:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:30:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T15:30:55+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T15:37:31+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T15:38:00+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T15:38:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T15:38:26+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T15:38:44+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:25:52+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:27:44+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:29:04+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:30:27+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:30:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:30:37+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:30:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:30:50+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:33:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:33:45+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:34:26+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:35:30+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:35:47+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:36:19+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:36:44+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:38:05+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:38:16+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T16:42:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:42:52+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:44:27+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:44:27+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:46:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:46:03+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:46:09+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit injectAddToCartEvent
+2022-11-13T16:46:09+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2022-11-13T16:46:09+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T16:46:09+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T16:46:16+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-13T16:46:16+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-13T16:49:19+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-13T16:49:19+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-11-13T17:00:37+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T17:02:14+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T17:03:03+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-13T17:24:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit injectViewContentEvent
+2022-11-13T17:24:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2022-11-13T17:24:37+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-11-13T17:24:37+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
